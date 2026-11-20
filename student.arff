@@ -1,0 +1,14 @@
+@relation student
+
+@attribute name string
+@attribute age numeric
+@attribute marks numeric
+@attribute grade {A, B, C}
+@attribute passed {yes, no}
+
+@data
+'Rahul',20,85,A,yes
+'Priya',21,72,B,yes
+'Amit',20,45,C,no
+'Sneha',22,90,A,yes
+'Karan',21,38,C,no
